@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/*ヘッダー全体に対するスタイル設定*/
+header{
+  background-color:#e6f0f0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-top: 20px;
+  height:150px;
+  width:auto;
+}
+
+body{
+  margin-right: 20px;
+}
+
+/*リストの黒丸を消す*/
+ul{
+  list-style: none;
+}
+
+/*ヘッダー:Ordinary*/
+p {
+    font-style: italic;
+    font-size: 40px;
+    float:left;
+    padding-left:60px;
+    font-family: 'Comfortaa', cursive;
+    padding-top:10px;
+    font-weight:bold;
+}
+
+/*ヘッダーサブタイトルについてスタイル変更*/
+header span{
+  font-style: italic;
+  font-size:20px;
+}
+
+/*ヘッダー:リスト*/
+.header-list{
+  display: block;
+  padding:10px,10px;
+  float:right;
+  padding-right:10px;
+  padding-top:30px;
+  font-family: 'Comfortaa', cursive;
+}
+
+/*イメージのスタイル*/
+.image img{
+  margin:20px 10px;
+  padding-left: 20px;
+  background-size:contain;
+  width: 300px;
+  height: 200px;
+  float:left;
+}
+
+/*イメージクラスのListスタイル*/
+.image{
+  list-style: none;
+  float:left;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/*Bring your own "Special"のスタイル*/
+.h1-style{
+  margin-left:40px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+/*説明のスタイル*/
+.body-1 Li{
+  font-size:20px;
+  list-style: none;
+  margin-left:40px;
+}
+
+/*空白行挿入*/
+.blank{
+  margin-top:40px;
+}
+
+/*フォームのスタイル*/
+.form{
+  margin-top:20px;
+  margin-left:40px;
+  list-style: none;
+  padding-top:5px;
+}
+
+footer{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top:40px;
+  background-color: #e2eba3;
+  width: auto;
+  height: 20px;
+}
+
+footer a{
+  float: right;
+  font-size:10px;
+  padding-top: 5px;
+}
